@@ -22,7 +22,6 @@ body {
     font-family: Roboto, Arial, Helvetica, sans-serif;
     letter-spacing: 0.03em;
     font-size: 14px;
-    line-height: 1.71;
 }
 
 .list {
@@ -119,6 +118,11 @@ body {
     font-weight: 700;
     line-height: 1.14;
     text-transform: uppercase;
+    font-size: 14px;
+}
+
+.description {
+    line-height: 1.71;
 }
 
 .team-name {
@@ -150,6 +154,17 @@ body {
 address {
     color:#FFFFFF;
     font-style: normal;
+}
+
+.contacts-footer a {
+font-weight: 400;
+color: rgba(255, 255, 255, 0.6);
+line-height: 1.71;
+}
+
+.contacts-footer a:hover,
+.contacts-footer a:focus {
+    color: var(--active-link-color)
 }
 
 /* Стили Портфолио */
